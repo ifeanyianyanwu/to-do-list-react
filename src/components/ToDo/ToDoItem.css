@@ -1,0 +1,16 @@
+.task-content {
+    font-size: 1rem;
+    color: var(--font-color);
+    text-transform: capitalize;
+    margin: 0.8rem 0.4rem;
+}
+
+.task-content > input {
+    float: left;
+    margin: 0 0.3rem;
+    height: 1rem;
+    width: 1rem;
+}
+.task-content > .icon {
+    float: right;
+}

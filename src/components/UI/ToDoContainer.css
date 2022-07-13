@@ -1,0 +1,10 @@
+.container {
+    width: 100%;
+    height: 69%;
+    overflow: scroll;
+    /* padding: 0.3rem; */
+    /* background-color: blue; */
+}
+.container::-webkit-scrollbar {
+    display: none;
+}

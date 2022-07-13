@@ -1,0 +1,30 @@
+.task-wrapper {
+    width: 100%;
+    margin-top: 1rem;
+}
+.task-wrapper > input {
+    width: 73%;
+    height: 2rem;
+    padding: 0 0.8rem;
+    border: 1px var(--font-color) solid;
+    border-radius: 1rem;
+    font-size: 1rem;
+    font-weight: 530;
+}
+.task-wrapper > input:focus {
+    outline: none;
+}
+::placeholder {
+    color: var(--font-color);
+}
+.task-wrapper > button {
+    color: white;
+    width: 6rem;
+    height: 2rem;
+    background-color: var(--font-color);
+    border-radius: 1rem;
+    text-transform: uppercase;
+    border: none;
+    font-weight: bold;
+    float: right;
+}
